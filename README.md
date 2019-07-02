@@ -2,8 +2,8 @@
 OPTEVAR: OPTimal EVAcuating Route
 
 ## 1. Read nodes, edges from environment json
-### It contains values for calculating RSET/ASET - for example area of a room(node)
-### Initiate edges weigths with calculating distances between nodes
+ It contains values for calculating RSET/ASET - for example area of a room(node)
+ Initiate edges weigths with calculating distances between nodes
 
 ## 2. Read scenerio parameters - maximum number of people, avg velocity of movement, ...
 
@@ -12,4 +12,4 @@ OPTEVAR: OPTimal EVAcuating Route
 ## 4. Calculate weights of nodes
 
 ## 5. Calculate the optimal evacuation route using dijkstra's algorithm
-### using networkx.
+ using networkx.
